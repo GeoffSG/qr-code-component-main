@@ -1,0 +1,31 @@
+
+// =====  Base Vars  =====
+$base-font-family: 'Outfit';
+$base-font-size: 16px;
+
+$base-padding: 20px;
+
+
+// ===== portfolio colors  =====
+$colors: (
+    //  Blue
+    'blue': (
+        '50' : #edf8ff,
+        '100': #d6edff,
+        '200': #b5e2ff,
+        '300': #83d1ff,
+        '400': #49b6ff,
+        '500': #1f92ff,
+        '600': #0772ff,
+        '700': #015af4,
+        '800': #0848c5,
+        '900': #0c3988,
+        '950': #0e285d,
+    )
+);
+
+@function get-color($color, $shade) {
+    @return map-get(map-get($colors, $color), $shade);
+}
+// ===== quick colors =====
+$white: get-color('blue', '50');

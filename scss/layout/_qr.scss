@@ -1,0 +1,29 @@
+.qr {
+    background-color: get-color('blue','200');
+    width: 300px;
+    padding: $base-padding;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(get-color('blue', '950'), $alpha: .25);
+
+    font-family: $base-font-family;
+    text-align: center;
+
+    &-img {
+        display: block;
+        width: 100%;
+        height: auto;
+        img {
+            border-radius: 10px;
+        }
+    }
+
+    &-info {
+        padding: $base-padding;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

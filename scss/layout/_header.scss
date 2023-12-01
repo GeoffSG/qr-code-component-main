@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #454647;
+    h1 {
+        font-family: $base-font-family;
+        text-align: center;
+        color: get-color('blue','50');
+    }
+}
