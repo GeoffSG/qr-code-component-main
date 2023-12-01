@@ -17,7 +17,6 @@ This is my attempt at the [QR code component challenge on Frontend Mentor](https
 - HTML5
 - CSS; SASS/SCSS
 - Flexbox
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned (Reflection)
 Nothing really new to me. I thought I'd go for something simple to practice, and to get started with the platform. For this, I wanted to practice creating a simple container component that I could potentially use in future projects.
