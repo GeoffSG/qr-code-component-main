@@ -10,8 +10,7 @@
 This is my attempt at the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) - a place with a ton of web development & design challenges. In fact, this is my first challenge.
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Link: [View webpage here]([https://your-live-site-url.com](https://geoffsg.github.io/qr-code-component-main/))
 
 ## My process
 ### Built with
