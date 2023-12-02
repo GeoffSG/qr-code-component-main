@@ -1,12 +1,14 @@
 .qr {
-    background-color: get-color('blue','200');
+    background-color: $light-blue;
     width: 300px;
     padding: $base-padding;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px 2px rgba(get-color('blue', '950'), $alpha: .25);
+    box-shadow: 2px 2px 2px 2px rgba($black, .25);
 
     font-family: $base-font-family;
     text-align: center;
+
+    color: $black;
 
     &-img {
         display: block;

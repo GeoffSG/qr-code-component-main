@@ -4,10 +4,10 @@ header {
     justify-content: center;
     align-items: center;
 
-    background-color: #454647;
+    background-color: $grey;
     h1 {
         font-family: $base-font-family;
         text-align: center;
-        color: get-color('blue','50');
+        color: $white;
     }
 }

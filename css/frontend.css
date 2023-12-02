@@ -355,6 +355,7 @@ header h1 {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  background-color: #edf8ff;
 }
 
 .container {
@@ -369,6 +370,7 @@ header h1 {
   box-shadow: 2px 2px 2px 2px rgba(14, 40, 93, 0.25);
   font-family: "Outfit";
   text-align: center;
+  color: #0e285d;
 }
 .qr-img {
   display: block;
